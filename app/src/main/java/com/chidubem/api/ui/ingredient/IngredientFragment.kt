@@ -23,6 +23,14 @@ class IngredientFragment : Fragment() {
 //    }
 
 
+    companion object {
+
+        const val ARG_INGREDIENTS = "my.ingredients"
+
+
+    }
+
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
